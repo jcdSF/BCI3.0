@@ -86,6 +86,13 @@ span.fa {
   padding-bottom: 60px;
 }
 
+//drop-caps
+.services .row p:first-of-type::first-letter {
+  font-size: 3em;
+  float: left;
+  margin: -5px 5px -7px 0;
+}
+
 .about {
   background: white;
   border-bottom:4px solid #aaa;
