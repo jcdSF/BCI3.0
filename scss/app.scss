@@ -53,6 +53,13 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Droid Sans', sans-serif;
 }
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 .hero h1, h3, hr {
   color: #fff;
 }
@@ -113,6 +120,16 @@ span.fa {
   padding-bottom: 60px;
 }
 
+.footer {
+  color: white;
+  background: $oil;
+  padding-top: 1em;
+  padding-bottom: .2em;
+}
+
+.footer p {
+    font-size: .75rem;
+}
 .uppercase {
   text-transform: uppercase;
 }
