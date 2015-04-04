@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 .hero {
   background: url(../img/hero-bg.jpeg) center center/cover no-repeat;
   -webkit-filter: opacity(.5);     
-  min-height: 50vh;
+  min-height: 10vh;
   width: 100%;
   padding-top: 175px;
   padding-bottom: 150px;
@@ -96,6 +96,7 @@ span.fa {
 
 .services h4 {
   font-weight: bold;
+  color: $primary-color;
 }
 
 .services .row {
@@ -137,7 +138,7 @@ span.fa {
 .divider {
   background-color: #808082;
   height: 2px;
-  width: 80px;
+  width: 30%;
   margin: 30px auto;
 }
 
