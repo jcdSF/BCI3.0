@@ -126,6 +126,7 @@ $include-html-global-classes: $include-html-classes;
 // $info-color: #a0d3e8;
 $primary-color: #002C54;
 $secondary-color: #404040;
+$info-color: #0076E0;
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -268,6 +269,9 @@ $paragraph-line-height: 1.8;
 // $anchor-text-decoration-hover: none;
 // $anchor-font-color: $primary-color;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
+$anchor-text-decoration-hover: underline;
+$anchor-font-color: $info-color;
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -50%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
