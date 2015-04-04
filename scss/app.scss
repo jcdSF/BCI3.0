@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-  margin: 10px auto 0 auto;
+  margin: 10px auto 0 375px;
 }
 
 .hero h1, h3, hr {
@@ -73,14 +73,28 @@ h1, h2, h3, h4, h5 {
   width: 280px;
   margin: 30px auto;
 }
-
+/*
 .hero {
   background: url(../img/hero-bg.jpeg) center center/cover no-repeat;
   -webkit-filter: opacity(.5);     
   min-height: 10vh;
   width: 100%;
- 
   padding-bottom: 150px;
+  border-bottom: 4px solid #aaa;
+}
+*/
+.hero {
+  background: 
+    /* top, transparent blue, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 31, 58, 0.25), 
+      rgba(0, 44, 84, 0.75)
+    ),
+    /* bottom, image */
+    url(../img/hero-bg.jpeg) center center/cover no-repeat;
+    -webkit-filter: opacity(.5);
+  width: 100%;
+  padding-bottom: 75px;
   border-bottom: 4px solid #aaa;
 }
 span.fa {
