@@ -54,8 +54,11 @@ h1, h2, h3, h4, h5 {
   font-family: 'Droid Sans', sans-serif;
 }
 
-.logo {
-  margin: 10px auto 0 375px;
+.hero img {
+  width: 8rem;
+  display: block;
+  margin: 1rem auto .5rem auto;
+  text-align: center;
 }
 
 .hero h1, h3, hr {
